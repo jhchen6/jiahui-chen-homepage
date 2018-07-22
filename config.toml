@@ -63,7 +63,7 @@ enableGitInfo = true
 
   gravatar = false  # Get your avatar from Gravatar.com? (true/false)
   avatar = "portrait.jpg"  # Specify an avatar image (in `static/img/` folder) or delete value to disable avatar.
-  email = "jhchen6@outlook.com"
+  email = "jhchen6@zju.edu.cn"
   address = "Mengminwei Building Room 408-2, Zhejiang University, Hangzhou, 310058, China"
   office_hours = "Weekdays 9:00 to 17:00 or email for appointment"
   # phone = "888 888 88 88"
@@ -226,7 +226,7 @@ enableGitInfo = true
   [[params.social]]
     icon = "envelope"
     icon_pack = "fa"
-    link = "mailto:jhchen6@outlook.com"
+    link = "mailto:jhchen6@zju.edu.cn"
 
 #  [[params.social]]
 #    icon = "twitter"
