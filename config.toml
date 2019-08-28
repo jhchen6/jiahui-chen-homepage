@@ -10,7 +10,7 @@ title = "Jiahui Chen"
 
 # Your copyright notice - appears in site footer.
 # To display a copyright symbol, type `&copy;`.
-copyright = "&copy; 2018 Jiahui Chen" 
+copyright = "&copy; 2019 Jiahui Chen"
 
 theme = "academic"
 enableEmoji = true
@@ -55,11 +55,11 @@ enableGitInfo = true
 
   # Your details.
   name = "Jiahui Chen"
-  role = "Future Master Student of Visual Analytics"
+  role = "Master Student of Visual Analytics"
 
   # Organizations/Affiliations.
   #   Separate multiple entries with a comma, using the form: `[ {name="Org1", url=""}, {name="Org2", url=""} ]`.
-  organizations = [ { name = "Zhejiang University", url = "http://www.zju.edu.cn/english/" } ]
+  organizations = [ { name = "Zhejiang University", url = "http://www.zju.edu.cn/english/" }, {name="ZJU Interactive Data Group", url="https://zjuidg.org/"}  ]
 
   gravatar = false  # Get your avatar from Gravatar.com? (true/false)
   avatar = "portrait.jpg"  # Specify an avatar image (in `static/img/` folder) or delete value to disable avatar.
@@ -149,7 +149,7 @@ enableGitInfo = true
   #   For more info on the highlighting options, see:
   #   https://sourcethemes.com/academic/post/writing-markdown-latex/#highlighting-options
   highlight = true
-  highlight_languages = ["javascript", "typescript"]
+  highlight_languages = ["javascript", "typescript", "bash", "yaml", "json", "go", "python"]
   highlight_style = "github"
 
   # Enable native social sharing buttons?
@@ -258,9 +258,14 @@ enableGitInfo = true
   weight = 1
 
 # [[menu.main]]
-# name = "Publications"
+#  name = "Publications"
 #  url = "#publications_selected"
 #  weight = 2
+
+[[menu.main]]
+  name = "Publications"
+  url = "#publications"
+  weight = 2
 
 # [[menu.main]]
 #  name = "Posts"

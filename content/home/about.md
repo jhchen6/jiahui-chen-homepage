@@ -2,7 +2,6 @@
 # About/Biography widget.
 widget = "about"
 active = true
-date = 2018-05-31T22:23:00
 
 # Order that this section will appear in.
 weight = 5
@@ -11,19 +10,25 @@ weight = 5
 [interests]
   interests = [
     "Visual Analytics",
-    "Urban Informatics",
+    "Urban Data",
     "Data Mining"
   ]
 
 # List your qualifications (such as academic degrees).
 
 [[education.courses]]
-  course = "B.Eng. in Food Science and Engineering"
+  course = "MSc Computer Science"
+  institution = "Zhejiang University"
+  year = 2021
+
+[[education.courses]]
+  course = "BEng in Food Science and Engineering"
   institution = "Zhejiang University"
   year = 2016
- 
+
+
 +++
 
 # Biography
 
-Jiahui Chen will join [ZJUVIS](zjuvis.org) group in [State Key Lab of CAD&CG](http://www.cad.zju.edu.cn/english.html), [Zhejiang University](http://www.zju.edu.cn/english/) as a master student in Sep 2018. She will work on Urban Informatics to explore ways of tackling urban problems with visual analytics techniques, which bring human knowledge and computer power together. 
+Jiahui Chen joined [ZJU Interactive Data Group](https://zjuidg.org) at [State Key Lab of CAD&CG](http://www.cad.zju.edu.cn/english.html), [Zhejiang University](http://www.zju.edu.cn/english/) as a master student in Sep 2018. She works on visual analytics of urban problems, such as planning road lanes and tracking air pollution propagation, leveraging the power of big urban data and visual interactions which support the engagement of human expertise.
